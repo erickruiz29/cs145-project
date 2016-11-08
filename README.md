@@ -11,3 +11,11 @@ References:
 - https://github.com/zygmuntz/kaggle-happiness/blob/master/vectorize_validation.py
 - https://www.kaggle.com/c/liberty-mutual-group-property-inspection-prediction/forums/t/15800/dictvectorizer-vs-labelencoder-python-sklearn
 - https://www.kaggle.com/wiki/Algorithms
+
+Libraries:
+- To see and do operations on data: pandas (http://pandas.pydata.org/)
+- For all kinds of machine learning models: scikit-learn (http://scikit-learn.org/stable/)
+- The best gradient boosting library: xgboost (https://github.com/dmlc/xgboost)
+- For neural networks: keras (http://keras.io/)
+- For plotting data: matplotlib (http://matplotlib.org/)
+- To monitor progress: tqdm (https://pypi.python.org/pypi/tqdm)
