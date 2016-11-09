@@ -19,3 +19,8 @@ Libraries:
 - For neural networks: keras (http://keras.io/)
 - For plotting data: matplotlib (http://matplotlib.org/)
 - To monitor progress: tqdm (https://pypi.python.org/pypi/tqdm)
+
+Videos about different algorithms:
+- Scikit Learn: https://www.youtube.com/watch?v=HC0J_SPm9co
+- Random Forest Algorithm: https://www.youtube.com/watch?v=fFPsjpP5Shs
+- Gradient Boosted Regression Trees: https://www.youtube.com/watch?v=IXZKgIsZRm0
