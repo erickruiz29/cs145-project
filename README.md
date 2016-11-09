@@ -24,3 +24,4 @@ Videos about different algorithms:
 - Scikit Learn: https://www.youtube.com/watch?v=HC0J_SPm9co
 - Random Forest Algorithm: https://www.youtube.com/watch?v=fFPsjpP5Shs
 - Gradient Boosted Regression Trees: https://www.youtube.com/watch?v=IXZKgIsZRm0
+- Tree models: https://www.youtube.com/watch?v=GuRfLbAU9Ho
