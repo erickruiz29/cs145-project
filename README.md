@@ -11,6 +11,7 @@ References:
 - https://github.com/zygmuntz/kaggle-happiness/blob/master/vectorize_validation.py
 - https://www.kaggle.com/c/liberty-mutual-group-property-inspection-prediction/forums/t/15800/dictvectorizer-vs-labelencoder-python-sklearn
 - https://www.kaggle.com/wiki/Algorithms
+- http://blog.echen.me/2011/03/14/laymans-introduction-to-random-forests/
 
 Libraries:
 - To see and do operations on data: pandas (http://pandas.pydata.org/)
@@ -25,3 +26,6 @@ Videos about different algorithms:
 - Random Forest Algorithm: https://www.youtube.com/watch?v=fFPsjpP5Shs
 - Gradient Boosted Regression Trees: https://www.youtube.com/watch?v=IXZKgIsZRm0
 - Tree models: https://www.youtube.com/watch?v=GuRfLbAU9Ho
+
+Hyperparameter Optimization
+![alt tag](http://5047-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2016/07/abhishek_24.png)
