@@ -28,4 +28,7 @@ Videos about different algorithms:
 - Tree models: https://www.youtube.com/watch?v=GuRfLbAU9Ho
 
 Hyperparameter Optimization
+- Gradient Boosting Regressor (https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/)
+
+
 ![alt tag](http://5047-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2016/07/abhishek_24.png)
