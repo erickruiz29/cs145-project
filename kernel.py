@@ -53,12 +53,6 @@ train_indices, valid_indices = next(iter(kf))
 x_train, y_train = x_data[train_indices], y_data[train_indices]
 x_valid, y_valid = x_data[valid_indices], y_data[valid_indices]
 
-#print(x_train.shape)
-#print(y_train.shape)
-#print(x_valid.shape)
-#print(y_valid.shape)
-
-
 #####################################################################
 # Modify the two lines below (# 1, # 2) to run different algorithms
 #
@@ -73,13 +67,30 @@ x_valid, y_valid = x_data[valid_indices], y_data[valid_indices]
 #
 #####################################################################
 
-from sklearn.ensemble import GradientBoostingRegressor # 1
-model = GradientBoostingRegressor() # 2
+#from sklearn.ensemble import GradientBoostingRegressor # 1
+#model = GradientBoostingRegressor() # 2
 
 #from sklearn.ensemble import RandomForestClassifier
 #model = RandomForestClassifier(n_estimators = 200, max_depth = 50)
 
+import xgboost as xgb
+from xgboost.sklearn import XGBRegressor
+
+model = XGBRegressor(learning_rate =0.1, 
+					n_estimators=310, 
+					max_depth=5,
+					min_child_weight=2, 
+					gamma=0.2, 
+					subsample=0.85, 
+					colsample_bytree=0.65,
+					objective= 'reg:linear', 
+					nthread=4, 
+					scale_pos_weight=1, 
+					seed=27,
+					reg_alpha=84)
+
 model.fit(x_train, y_train)
+#model.fit(x_data, y_data)
 y_test = model.predict(x_test)
 
 #####################################################################
@@ -101,11 +112,6 @@ print(my_solution.shape)
 # Check the Input section to the right of the Kaggle Kernel text editor
 # to preview and submit the csv file
 my_solution.to_csv("my_solution.csv", index_label = ["Id"])
-
-
-
-
-
 
 
 
